@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+body {
+	font-family: 'Viaoda Libre', cursive;
+	font-size: 14px;
+	background: rgba(56, 146, 184, 0.463);
+}
+
+#wrapper {
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	border-radius: 25px;
+	padding: 20px;
+	background: rgb(18, 5, 196);
+	margin: 0.5rem;
+}
+
+nav {
+	color: yellow;
+	font-weight: bold;
+}
+
+section {
+	border-radius: 25px;
+	padding: 20px;
+	width: 625px;
+	height: auto;
+	float: left;
+	background: rgba(56, 146, 184, 0.463);
+	margin: 0.5rem;
+}
+
+aside {
+	border-radius: 25px;
+	padding: 20px;
+	width: 225px;
+	float: right;
+	background: rgba(56, 146, 184, 0.463);
+	margin: 0.5rem;
+}
+
+footer {
+	border-radius: 25px;
+	padding: 20px;
+	width: 950px;
+	height: auto;
+	float: left;
+	background: rgb(18, 5, 196);
+	color: white;
+	margin: 0.5rem;
+}
+
+a:link {
+	color: rgb(230, 72, 230);
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 26px;
+	color: white;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 18px;
+	font-style: italic;
+	color: white;
+}
+
+header > h1 {
+	margin-bottom: 3px;
+}
+
+header > h2 {
+	margin-top: 0px;
+}
