@@ -51,7 +51,7 @@ aside {
 footer {
 	border-radius: 25px;
 	padding: 20px;
-	width: 950px;
+	width: 960px;
 	height: auto;
 	float: left;
 	background: rgb(18, 5, 196);
@@ -60,11 +60,11 @@ footer {
 }
 
 a:link {
-	color: rgb(230, 72, 230);
+	color: rgb(235, 235, 48);
 }
 
 a:visited {
-	color: red;
+	color: rgb(230, 18, 230);
 }
 
 h1 {
@@ -92,4 +92,17 @@ header > h1 {
 
 header > h2 {
 	margin-top: 0px;
+}
+
+#homepageImage {
+	float: left;
+	border-style: none;
+	border-radius: 25px;
+	margin: 0.5rem;
+	width: 960px;
+}
+
+iframe {
+	margin: 0.5rem;
+	border-radius: 25px;
 }
