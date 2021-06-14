@@ -106,3 +106,69 @@ iframe {
 	margin: 0.5rem;
 	border-radius: 25px;
 }
+
+#moveBoxLeft {
+	-webkit-animation: slideLeft 2s forwards;
+	-moz-animation: slideLeft 2s forwards;
+	animation: slideLeft 2s forwards;
+}
+
+#moveBoxRight {
+	-webkit-animation: slideRight 2s forwards;
+	-moz-animation: slideRight 2s forwards;
+	animation: slideRight 2s forwards;
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(-1500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		transform: translateX(-1500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@-moz-keyframes slideLeft {
+	0% {
+		transform: translateX(-1500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideRight {
+	0% {
+		transform: translateX(1500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@-webkit-keyframes slideRight {
+	0% {
+		transform: translateX(1500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@-moz-keyframes slideRight {
+	0% {
+		transform: translateX(1500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
